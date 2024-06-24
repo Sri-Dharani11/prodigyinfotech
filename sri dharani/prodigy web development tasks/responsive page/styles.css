@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: rgb(68, 85, 85);
+}
+
+#navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #1f444f; /* Initial background color */
+  transition: background-color 0.3s ease;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.logo {
+  color: #f70f96;
+  font-size: 20px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+ul li a {
+  color:  #f70f96;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+ul li a:hover {
+  color: #68c0e9; /* Hover color */
+}
+
+.content {
+  padding-top: 60px; /* Adjust according to navbar height */
+  height: 1500px; /* Just for demonstration */
+}
+h2,p{
+  text-align: center;
+  color:aquamarine;
+}
